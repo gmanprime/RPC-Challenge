@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styes/main.css">
+
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 
-  Score
-  Rules
+  <!--   Score
+    Rules
 
-  You Picked
-  The House Picked
+    You Picked
+    The House Picked
 
-  You Win
-  You Lose
+    You Win
+    You Lose
 
-  Play Again
+    Play Again -->
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  <div class="banner"></div>
+  <div class="banner">
+    <p class="title">
+      Rock <br> Paper <br> Scissors
+    </p>
+    <div class="scoreCard">
+      <section>Score</section>
+      <section class="scoreValue"> 0 </section>
+    </div>
+  </div>
 
+  <div class="sector">
+    <div ID="core"></div>
+  </div>
 
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Yonatan Elias</a>.
   </div>
+
+  <script src="/JS//run.js"></script>
 </body>
+
 </html>

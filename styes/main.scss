@@ -1,0 +1,139 @@
+body {
+  display: grid;
+  place-items: center;
+  // background: grey;
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 52%;
+  height: 6.3rem;
+  box-shadow: 0 0 15px palegoldenrod;
+  border: 4px whitesmoke solid;
+  border-radius: 0.5rem;
+  display: grid;
+  margin-top: 1.6rem;
+  place-items: center;
+  background: blue;
+  position: relative;
+  & .title {
+    padding: 0;
+    width: 20%;
+    position: absolute;
+    left: 1rem;
+  }
+  & .scoreCard {
+    width: 4rem;
+    position: absolute;
+    right: 2rem;
+    display: grid;
+    place-items: center;
+    background: red;
+  }
+}
+
+.sector {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#core {
+  width: 0;
+  height: 0;
+  background-color: green;
+  border: 1px solid;
+  position: absolute;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+.btnWrapper {
+  width: 0;
+  height: 0;
+  background: red;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border: none;
+  &#btn1 {
+    background: red;
+    padding: 0;
+    &::before {
+      content: url("../images/icon-rock.svg");
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background: white;
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
+  }
+  &#btn2 {
+    background: blue;
+    &::before {
+      content: url("../images/icon-paper.svg");
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background: white;
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
+  }
+  &#btn3 {
+    background: yellow;
+    &::before {
+      content: url("../images/icon-scissors.svg");
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background: white;
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
+  }
+  &#btn4 {
+    background: orange;
+    &::before {
+      content: url("../images/icon-lizard.svg");
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background: white;
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
+  }
+  &#btn5 {
+    background: green;
+    &::before {
+      content: url("../images/icon-spock.svg");
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background: white;
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
+  }
+}

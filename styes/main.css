@@ -1,0 +1,173 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 52%;
+  height: 6.3rem;
+  -webkit-box-shadow: 0 0 15px palegoldenrod;
+          box-shadow: 0 0 15px palegoldenrod;
+  border: 4px whitesmoke solid;
+  border-radius: 0.5rem;
+  display: -ms-grid;
+  display: grid;
+  margin-top: 1.6rem;
+  place-items: center;
+  background: blue;
+  position: relative;
+}
+
+.banner .title {
+  padding: 0;
+  width: 20%;
+  position: absolute;
+  left: 1rem;
+}
+
+.banner .scoreCard {
+  width: 4rem;
+  position: absolute;
+  right: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: red;
+}
+
+.sector {
+  height: 25rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#core {
+  width: 0;
+  height: 0;
+  background-color: green;
+  border: 1px solid;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+.btnWrapper {
+  width: 0;
+  height: 0;
+  background: red;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: none;
+}
+
+.circle#btn1 {
+  background: red;
+  padding: 0;
+}
+
+.circle#btn1::before {
+  content: url("../images/icon-rock.svg");
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+
+.circle#btn2 {
+  background: blue;
+}
+
+.circle#btn2::before {
+  content: url("../images/icon-paper.svg");
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+
+.circle#btn3 {
+  background: yellow;
+}
+
+.circle#btn3::before {
+  content: url("../images/icon-scissors.svg");
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+
+.circle#btn4 {
+  background: orange;
+}
+
+.circle#btn4::before {
+  content: url("../images/icon-lizard.svg");
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+
+.circle#btn5 {
+  background: green;
+}
+
+.circle#btn5::before {
+  content: url("../images/icon-spock.svg");
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+}
+/*# sourceMappingURL=main.css.map */
